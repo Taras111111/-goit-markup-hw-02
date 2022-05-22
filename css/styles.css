@@ -1,3 +1,40 @@
 body {
-    background-color: aqua;
+background: #E5E5E5;
+color: #212121;
+/* logo */
 }
+.logo {
+    color: #212121;
+}
+.logo span {
+    color: #2196F3
+}
+.logo:hover, 
+.logo:focus{
+    color: #2196F3;
+}
+
+.link {
+text-decoration: none
+}
+/* сброс стилю елемента */
+.list {
+    list-style: none;
+}
+/* навігація */
+.link-nav {
+   color: #212121;
+}
+/* ховер навігації */
+.site-nav a:hover, 
+.site-nav a:focus {
+    color: #2196F3;
+
+}
+/*+ колір основного тексту #212121 */
+/* другорядний колір тексту #757575 */
+/* білий #FFFFFF */
+/* голубий акцент #2196F3 */
+/* ссилки адреса color: rgba(255, 255, 255, 0.6); */
+/* заливка футер. героя background: #2F303A; */
+/* заливка команда background: #F5F4FA; */
