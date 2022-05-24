@@ -144,13 +144,17 @@ text-decoration: none
                  /* adress */
 .footer.list{
     background-color:var(--background-hero-color);
-    color:var(--adress-color)
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
+    
+    
 }
 .contact .contact-gps{
     color: var(--wite-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.contact .contact-addres{
+    color: var(--adress-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
