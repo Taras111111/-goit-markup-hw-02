@@ -193,9 +193,10 @@ body{
         
 color:var(--main-text-color);
 }
-.portfolio-link:hover,
-.portfolio-link:focus{
-    color: var(--accent-color);
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background-color: var(--accent-color);
+    color: var(--wite-color);
 }
 .portfolio-subtitle {
     font-size: 16px;
