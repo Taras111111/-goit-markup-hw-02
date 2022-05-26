@@ -185,6 +185,12 @@ body{
     letter-spacing: 0.03em;
     /* color: var(--main-text-color); */
     background-color: var(--background-btn-color);}
+    
+    .portfolio-btn:hover,
+    .portfolio-btn:focus {
+        background-color: var(--accent-color);
+        color: var(--wite-color);
+    }
 
 .portfolio-title {
     font-size: 18px;
@@ -193,11 +199,7 @@ body{
         
 color:var(--main-text-color);
 }
-.portfolio-btn:hover,
-.portfolio-btn:focus{
-    background-color: var(--accent-color);
-    color: var(--wite-color);
-}
+
 .portfolio-subtitle {
     font-size: 16px;
     line-height: 1.88;
